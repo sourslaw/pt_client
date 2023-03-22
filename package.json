@@ -8,7 +8,8 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seedpoke": "cd server && node seeders/seedpokemon.js",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+		"client": "cd client && npm start"
   },
   "repository": {
     "type": "git",
